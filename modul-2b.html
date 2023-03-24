@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EVALUASI PRAKTIKUM</title>
+</head>
+
+<body>
+    <table width="550" height="500" align="center" style="border: 2px solid black;">
+        <tr>
+            <th colspan="3" height="30" bgcolor="red">
+                <font style="color:white">Form Pengajuan KTP</font>
+            </th>
+
+        </tr>
+        <tr>
+            <td>Nomor Pendafataran</td>
+            <td colspan="2">
+                <input size="1" type="text">&emsp;
+                <input size="1" type="text">&emsp;
+                <input size="1" type="text">&emsp;
+                <input size="1" type="text">&emsp;
+                <input size="1" type="text">&emsp;
+            </td>
+
+        </tr>
+        <tr>
+            <td>Nama</td>
+            <td colspan="2">
+                <input size="45" type="text" placeholder="Nama Lengkap">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Alamat</td>
+            <td colspan="2">
+                <textarea name="prgrf" style="width: 320px; height: 30px;" placeholder="alamat"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Provinsi</td>
+            <td><select>
+                    <option>Sulawesi Selatan</option>
+                    <option value="">malakaji</option>
+
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Kota</td>
+            <td>
+                <input size="15" type="text" placeholder="kota">
+            </td>
+            <td>Kec.
+                <input size="13" type="text" placeholder="kecamatan">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Pekerjaan</td>
+            <td>
+                <input size="24" type="text" placeholder="pekerjaan">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td><input type="radio" name="jenis kelamin" value="Pria" />Pria</td>
+            <td><input type="radio" name="jenis kelamin" value="Perempuan" />Wanita</td>
+        </tr <tr>
+        <td>Tempat/Tanggal Lahir</td>
+        <td><input size="24" type="text" placeholder="Tempat Lahir"></td>
+        <td><input type="date"></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Kelengkapan berkas</td>
+            <td><input type="checkbox" name="kelengkapan berkas" value="fc.kk" />FC.KK</td>
+            <td><input type="checkbox" name="kelengkapan berkas" value="surat pengantar" />Surat Pengantar</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="kelengkapan berkas" value="pas foto" />Pas Foto</td>
+            <td><input type="checkbox" name="kelengkapan berkas" value="surat domisili" />Surat Domisili</td>
+        </tr>
+
+        <tr>
+            <td>File scan</td>
+            <td colspan="2">
+                <input type="file" />
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3" align="center">
+                <input type="submit" value="Pengajuan" />
+                <input type="reset" value="Batal" />
+            </td>
+        </tr>
+
+    </table>
+    </form>
+</body>
+
+</html>
