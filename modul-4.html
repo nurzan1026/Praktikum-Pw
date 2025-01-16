@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
   <head>
@@ -66,3 +67,73 @@
     </script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(231, 181, 14);
+    }
+
+    div {
+      padding-top: 10px;
+      padding-left: 2px;
+    }
+
+    h5 {
+      margin-top: 100px;
+    }
+  </style>
+  <body>
+    <div
+      id="nilai1"
+      style="background-color: green; height: 100px; display: none"
+    >
+      <font size="8" color="white">Mendapatkan Nilai A</font>
+    </div>
+
+    <div
+      id="nilai2"
+      style="background-color: orange; height: 100px; display: none"
+    >
+      <font size="8" color="white">Mendapatkan Nilai B+</font>
+    </div>
+
+    <div
+      id="nilai3"
+      style="background-color: yellow; height: 100px; display: none"
+    >
+      <font size="8" color="white">Mendapatkan Nilai C+</font>
+    </div>
+
+    <div
+      id="nilai4"
+      style="background-color: red; height: 100px; display: none"
+    >
+      <font size="8" color="white">Mendapatkan Nilai E</font>
+    </div>
+
+    <h5>Inputkan Nilai</h5>
+    <input type="text" id="texts" />
+    <button id="buttons" onclick="push()">Nilai</button>
+    <script type="text/javascript">
+      function push() {
+        var input = document.getElementById('texts').value;
+        if (input >= 85)
+          document.getElementById('nilai1').style.display = 'block';
+        else if (input >= 75 && input <= 79)
+          document.getElementById('nilai2').style.display = 'block';
+        else if (input >= 60 && input <= 64)
+          document.getElementById('nilai3').style.display = 'block';
+        else if (input < 50)
+          document.getElementById('nilai4').style.display = 'block';
+      }
+    </script>
+  </body>
+</html>
+>>>>>>> 0d93101bd1a816801e58121b0f1f0a6dcb340b8b
